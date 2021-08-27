@@ -1,0 +1,20 @@
+.table__row{
+  display: flex;
+}
+
+.table__column {
+  border: 1px solid blue;
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.shrink {
+  flex-grow: 0;
+}
